@@ -1,2 +1,2 @@
 # cursojs
- Curso js Gustavo Guanabara
+ Curso Gustavo Guanabara
