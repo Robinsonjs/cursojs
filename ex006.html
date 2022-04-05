@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evendos Dom</title>
+<style>
+    button {
+    background-color: rgb(42, 139, 42);
+    color: white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+
+    
+   }
+
+
+</style>
+
+
+</head>
+
+
+<body>
+    <button id="area"  onclick="clicar()" onmouseenter="antrar()" onmouseout="sair()">interaja...</button>  
+    
+    <script>
+        function clicar(){
+            var a = document.getElementById('area')
+            a.innerText = 'clicou!'
+            a.style.background  = 'red'
+        
+            }
+
+            function entrar(){
+            var a = document.getElementById('area')
+            a.innerText = 'entrou'
+            }
+
+            function sair(){
+            var a = document.getElementById('area')
+            a.innerText = 'saiu'
+            a.style.background = 'green'
+            }
+        
+        
+        
+           
+
+
+    </script>
+    
+    
+
+</body>
+
+</html>
